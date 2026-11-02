@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title description">
+  <title id="title">THE HUB conversation illustration</title>
+  <desc id="description">A microphone and sound waves on a soft pink background, representing open conversation.</desc>
+  <rect width="640" height="640" fill="#e7a9b5"/>
+  <circle cx="320" cy="304" r="202" fill="#f5f1e8"/>
+  <path d="M282 154c0-21 17-38 38-38s38 17 38 38v153c0 21-17 38-38 38s-38-17-38-38Z" fill="#c83d42"/>
+  <path d="M234 292v21c0 48 39 87 86 87s86-39 86-87v-21m-86 108v65m-58 0h116" fill="none" stroke="#171714" stroke-linecap="round" stroke-linejoin="round" stroke-width="15"/>
+  <path d="M185 229c-23 42-23 92 0 134m270-134c23 42 23 92 0 134M145 196c-37 63-37 137 0 200m350-200c37 63 37 137 0 200" fill="none" stroke="#171714" stroke-linecap="round" stroke-width="11"/>
+  <path d="M89 99h69m-69 27h42M480 514h72m-72 27h49" stroke="#c83d42" stroke-linecap="round" stroke-width="8"/>
+  <text x="52" y="586" fill="#171714" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">SAY IT / HEAR EACH OTHER</text>
+</svg>

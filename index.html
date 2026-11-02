@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f1e8">
+    <meta name="description" content="THE HUB brings music, gaming and real conversation together. Discover live streams, community events and creator collaborations from the Western Cape to the world.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_ZA">
+    <meta property="og:site_name" content="THE HUB">
+    <meta property="og:title" content="THE HUB | Music, Gaming & Real Conversation">
+    <meta property="og:description" content="A Western Cape-rooted community for music, gaming, live streams and real conversation.">
+    <meta property="og:url" content="https://collectivehub-homepage.netlify.app/">
+    <meta property="og:image" content="https://collectivehub-homepage.netlify.app/assets/hub-session.svg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="THE HUB | Music, Gaming & Real Conversation">
+    <meta name="twitter:description" content="A Western Cape-rooted community for music, gaming, live streams and real conversation.">
+    <meta name="twitter:image" content="https://collectivehub-homepage.netlify.app/assets/hub-session.svg">
+    <link rel="canonical" href="https://collectivehub-homepage.netlify.app/">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@graph": [
+            {
+                "@type": "Organization",
+                "name": "THE HUB",
+                "url": "https://collectivehub-homepage.netlify.app/",
+                "description": "A Western Cape-rooted entertainment community for music, gaming, live streams and real conversation.",
+                "areaServed": {
+                    "@type": "AdministrativeArea",
+                    "name": "Western Cape, South Africa"
+                }
+            },
+            {
+                "@type": "WebSite",
+                "name": "THE HUB",
+                "url": "https://collectivehub-homepage.netlify.app/",
+                "inLanguage": "en-ZA"
+            }
+        ]
+    }
+    </script>
+    <script src="app.js" defer></script>
+    <title>THE HUB | Music, Gaming &amp; Real Conversation</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="wordmark" href="index.html" aria-label="THE HUB home">THE<span>_</span>HUB<span class="wordmark-period">.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+            <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="#shows">The shows</a>
+            <a href="#events">Events</a>
+            <a href="#about">Our corner</a>
+            <a class="nav-cta" href="enquiry.html?interest=collaboration">Pitch a collaboration <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="home" aria-labelledby="hero-title">
+            <div class="hero-copy">
+                <p class="eyebrow"><span class="eyebrow-mark" aria-hidden="true"></span> WESTERN CAPE ROOTS / OPEN TO THE WORLD</p>
+                <h1 id="hero-title">Music. Games.<br><em>Real talk.</em></h1>
+                <p class="hero-intro">Pull up to THE HUB: a place for live streams, culture, and conversations that bring people together, wherever you call home.</p>
+                <div class="hero-actions">
+                    <a class="button button-dark" href="#shows">Explore the shows <span aria-hidden="true">↘</span></a>
+                    <a class="text-link" href="enquiry.html?interest=community">Get involved <span aria-hidden="true">↗</span></a>
+                </div>
+                <p class="hero-note">A community platform with Cape roots and a worldwide outlook.</p>
+            </div>
+            <div class="hero-art" aria-label="Illustration of the music, gaming and conversation at THE HUB">
+                <img src="assets/hub-session.svg" alt="" width="720" height="620" fetchpriority="high">
+                <div class="hero-stamp"><span>FIND YOUR</span><strong>people<br>& frequency</strong><i aria-hidden="true">✳</i></div>
+                <p class="image-caption">A SEAT AT THE TABLE IS ALWAYS OPEN.</p>
+            </div>
+        </section>
+
+        <div class="ticker" aria-label="Music, gaming, live streams and community">
+            <div class="ticker-track" aria-hidden="true">
+                <span>MUSIC</span><b>✳</b><span>GAMING</span><b>✳</b><span>LIVE STREAMS</span><b>✳</b><span>REAL CONVERSATION</span><b>✳</b>
+                <span>MUSIC</span><b>✳</b><span>GAMING</span><b>✳</b><span>LIVE STREAMS</span><b>✳</b><span>REAL CONVERSATION</span><b>✳</b>
+            </div>
+        </div>
+
+        <section class="section-wrap shows" id="shows" aria-labelledby="shows-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">01 / Find your frequency</p>
+                    <h2 id="shows-title">There's a seat<br>with your <em>name on it.</em></h2>
+                </div>
+                <p class="section-intro">From music debates to open conversations, explore the ideas and formats that make THE HUB.</p>
+            </div>
+
+            <div class="discovery-controls">
+                <label class="search-field">
+                    <span class="visually-hidden">Search shows and topics</span>
+                    <span class="search-icon" aria-hidden="true">⌕</span>
+                    <input id="show-search" type="search" placeholder="Search shows and topics" autocomplete="off">
+                </label>
+                <label class="filter-field">
+                    <span class="visually-hidden">Filter shows by category</span>
+                    <select id="show-filter">
+                        <option value="all">All topics</option>
+                        <option value="conversation">Conversation</option>
+                        <option value="music">Music</option>
+                        <option value="community">Community</option>
+                    </select>
+                </label>
+                <label class="filter-field">
+                    <span class="visually-hidden">Sort shows</span>
+                    <select id="show-sort">
+                        <option value="featured">Featured order</option>
+                        <option value="name">Name: A to Z</option>
+                        <option value="category">Category</option>
+                    </select>
+                </label>
+            </div>
+            <p class="search-status" id="show-search-status" aria-live="polite"></p>
+
+            <div class="show-grid" id="show-grid">
+                <article class="show-card show-card--dark" data-content-card data-order="1" data-category="conversation" data-search="realist corner idealist corner debate opinions perspectives conversation">
+                    <div class="card-art card-art--debate" aria-hidden="true"><span>REALIST</span><b>VS</b><span>IDEALIST</span></div>
+                    <div class="card-copy">
+                        <p class="card-kicker">01 / THE DEBATE</p>
+                        <h3 aria-label="Realist Corner vs Idealist Corner">Realist Corner<br>vs Idealist Corner</h3>
+                        <p>Two sides. One big conversation.</p>
+                        <a href="enquiry.html?interest=show" aria-label="Ask about Realist Corner vs Idealist Corner">Ask about this show <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="show-card show-card--pink" data-content-card data-order="2" data-category="music" data-search="aux cord wars playlist music songs culture">
+                    <div class="card-art card-art--aux" aria-hidden="true"><span>PASS<br>THE AUX</span><i>NO SKIPS<br>ALLOWED</i></div>
+                    <div class="card-copy">
+                        <p class="card-kicker">02 / THE AUX</p>
+                        <h3>Aux Cord Wars</h3>
+                        <p>Defend your playlist. Respectfully.</p>
+                        <a href="enquiry.html?interest=show" aria-label="Ask about Aux Cord Wars">Ask about this show <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="show-card show-card--yellow" data-content-card data-order="3" data-category="conversation" data-search="hot seat fridays question conversation interview culture">
+                    <div class="card-art card-art--hotseat" aria-hidden="true"><span>NO<br>SAFE<br>ANSWERS.</span><b>✳</b></div>
+                    <div class="card-copy">
+                        <p class="card-kicker">03 / THE HOT SEAT</p>
+                        <h3>Hot Seat Fridays</h3>
+                        <p>One question. Keep it real.</p>
+                        <a href="enquiry.html?interest=show" aria-label="Ask about Hot Seat Fridays">Ask about this show <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+                <article class="show-card show-card--green" data-content-card data-order="4" data-category="community" data-search="cape flats country wide local culture journey community">
+                    <div class="card-art card-art--journey" aria-hidden="true"><span>FROM HERE<br>TO EVERYWHERE</span><i>CAPE FLATS<br>→ WORLDWIDE</i></div>
+                    <div class="card-copy">
+                        <p class="card-kicker">04 / THE JOURNEY</p>
+                        <h3>Cape Flats to Country Wide</h3>
+                        <p>Local roots. Big world energy.</p>
+                        <a href="enquiry.html?interest=show" aria-label="Ask about Cape Flats to Country Wide">Ask about this show <span aria-hidden="true">↗</span></a>
+                    </div>
+                </article>
+            </div>
+            <p class="section-footnote">Programming and schedules may change. Check with THE HUB for the latest stream and show details.</p>
+        </section>
+
+        <section class="events-band" id="events" aria-labelledby="events-title">
+            <div class="section-wrap events-layout">
+                <div>
+                    <p class="eyebrow">02 / Make it a moment</p>
+                    <h2 id="events-title">The HUB comes<br>to <em>your corner.</em></h2>
+                    <p>Pop-up sessions bring music, gaming and good conversation into the same room. Event dates and venues will be announced here when confirmed.</p>
+                    <a class="button button-light" href="enquiry.html?interest=event">Register your interest <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="event-note">
+                    <span class="event-symbol" aria-hidden="true">✳</span>
+                    <p class="card-kicker">POP-UP HUB SESSIONS</p>
+                    <h3>Local meet-ups.<br>Worldwide energy.</h3>
+                    <p>No venue or event date has been announced yet. Ask to hear about upcoming sessions.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap gallery-section" aria-labelledby="gallery-title">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">03 / The atmosphere</p>
+                    <h2 id="gallery-title">More than a screen.<br><em>A shared space.</em></h2>
+                </div>
+                <p class="section-intro">A little of the energy behind the conversations, the games and the music. Select an illustration to see it up close.</p>
+            </div>
+            <div class="gallery-grid">
+                <button class="gallery-item gallery-item--wide" type="button" data-lightbox data-image="assets/hub-session.svg" data-image-alt="Illustration of a live music session with a crowd and stage lights">
+                    <img src="assets/hub-session.svg" alt="Illustration of a live music session with a crowd and stage lights" width="720" height="620" loading="lazy">
+                    <span>01 / LIVE SESSIONS <b aria-hidden="true">↗</b></span>
+                </button>
+                <button class="gallery-item" type="button" data-lightbox data-image="assets/hub-gaming.svg" data-image-alt="Illustration of a game controller surrounded by vivid pixels">
+                    <img src="assets/hub-gaming.svg" alt="Illustration of a game controller surrounded by vivid pixels" width="640" height="640" loading="lazy">
+                    <span>02 / GAME ON <b aria-hidden="true">↗</b></span>
+                </button>
+                <button class="gallery-item" type="button" data-lightbox data-image="assets/hub-conversation.svg" data-image-alt="Illustration of a microphone and sound waves for an open conversation">
+                    <img src="assets/hub-conversation.svg" alt="Illustration of a microphone and sound waves for an open conversation" width="640" height="640" loading="lazy">
+                    <span>03 / REAL TALK <b aria-hidden="true">↗</b></span>
+                </button>
+            </div>
+            <dialog class="lightbox" aria-label="Expanded gallery image">
+                <button class="lightbox-close" type="button" aria-label="Close image">×</button>
+                <img class="lightbox-image" src="assets/hub-session.svg" alt="">
+                <p class="lightbox-caption"></p>
+            </dialog>
+            <p class="section-footnote">These original illustrations represent THE HUB's themes; they are not photographs of a specific event or venue.</p>
+        </section>
+
+        <section class="about-section" id="about" aria-labelledby="about-title">
+            <div class="section-wrap about-layout">
+                <div>
+                    <p class="eyebrow">04 / Our corner of the world</p>
+                    <h2 id="about-title">Not a stage.<br><em>A stoep.</em></h2>
+                </div>
+                <div class="about-copy">
+                    <p>THE HUB is a community for music, gaming and real conversation. We bring people together around the things they love and make room for fresh voices, ideas and collaborations.</p>
+                    <p>Our roots are in the Western Cape, South Africa. Our conversations are open to everyone, everywhere.</p>
+                    <a class="text-link" href="enquiry.html?interest=collaboration">Build something with us <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-wrap map-section" aria-labelledby="map-title">
+            <div class="map-copy">
+                <p class="eyebrow">05 / Cape roots, open roads</p>
+                <h2 id="map-title">Grounded here.<br><em>Connected everywhere.</em></h2>
+                <p>Our community is rooted in the Western Cape. The map shows the broader region, not a confirmed event venue or business address.</p>
+                <a class="text-link" href="https://www.openstreetmap.org/#map=7/-33.9/19.0" target="_blank" rel="noopener noreferrer">Explore the Western Cape map <span aria-hidden="true">↗</span></a>
+            </div>
+            <div class="map-frame">
+                <iframe title="Interactive map showing the Western Cape region of South Africa" src="https://www.openstreetmap.org/export/embed.html?bbox=17.8%2C-34.6%2C20.3%2C-32.8&amp;layer=mapnik" loading="lazy" referrerpolicy="no-referrer" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="faq-section" aria-labelledby="faq-title">
+            <div class="section-wrap faq-layout">
+                <div>
+                    <p class="eyebrow">06 / Good to know</p>
+                    <h2 id="faq-title">A few things<br><em>you might ask.</em></h2>
+                </div>
+                <div class="faq-list">
+                    <details>
+                        <summary>How can I catch a live stream?</summary>
+                        <p>Stream links and schedules will be shared on the relevant show or event announcement once confirmed. Use the enquiry form if you would like to hear about upcoming sessions.</p>
+                    </details>
+                    <details>
+                        <summary>Where are pop-up events held?</summary>
+                        <p>Event locations are shared with each confirmed event. The map on this page shows our broad Western Cape roots, not a fixed venue.</p>
+                    </details>
+                    <details>
+                        <summary>Can I pitch a show or creator collaboration?</summary>
+                        <p>Yes. Tell us about your idea and the people involved through the collaboration enquiry form. The team will follow up to discuss fit and next steps.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="closing-cta" id="collaborate" aria-labelledby="closing-title">
+            <div class="section-wrap closing-layout">
+                <div>
+                    <p class="eyebrow">07 / The next conversation starts here</p>
+                    <h2 id="closing-title">Bring your idea.<br><em>We'll bring a seat.</em></h2>
+                </div>
+                <a class="button button-dark" href="enquiry.html?interest=collaboration">Start a conversation <span aria-hidden="true">↗</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-wrap footer-main">
+            <a class="wordmark" href="index.html" aria-label="THE HUB home">THE<span>_</span>HUB<span class="wordmark-period">.</span></a>
+            <p>Music, gaming and real conversation.<br>Western Cape roots. Open to the world.</p>
+            <a class="footer-email" href="mailto:katakanna18@gmail.com">Contact THE HUB <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="section-wrap footer-meta">
+            <span>© <span data-current-year>2026</span> THE HUB</span>
+            <nav aria-label="Footer navigation">
+                <a href="contact.html">Contact</a>
+                <a href="enquiry.html">Enquiries</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+            <a href="#home">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>

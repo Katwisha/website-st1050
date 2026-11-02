@@ -1,0 +1,46 @@
+[
+  {
+    "number": "01",
+    "kicker": "01 / THE DEBATE",
+    "category": "conversation",
+    "search": "realist corner idealist corner debate opinions perspectives conversation",
+    "titleLines": ["Realist Corner", "vs Idealist Corner"],
+    "description": "Two sides. One big conversation.",
+    "theme": "dark",
+    "art": "debate",
+    "artWords": ["REALIST", "VS", "IDEALIST"]
+  },
+  {
+    "number": "02",
+    "kicker": "02 / THE AUX",
+    "category": "music",
+    "search": "aux cord wars playlist music songs culture",
+    "titleLines": ["Aux Cord Wars"],
+    "description": "Defend your playlist. Respectfully.",
+    "theme": "pink",
+    "art": "aux",
+    "artWords": ["PASS THE AUX", "NO SKIPS ALLOWED"]
+  },
+  {
+    "number": "03",
+    "kicker": "03 / THE HOT SEAT",
+    "category": "conversation",
+    "search": "hot seat fridays question conversation interview culture",
+    "titleLines": ["Hot Seat Fridays"],
+    "description": "One question. Keep it real.",
+    "theme": "yellow",
+    "art": "hotseat",
+    "artWords": ["NO SAFE ANSWERS.", "✳"]
+  },
+  {
+    "number": "04",
+    "kicker": "04 / THE JOURNEY",
+    "category": "community",
+    "search": "cape flats country wide local culture journey community",
+    "titleLines": ["Cape Flats to Country Wide"],
+    "description": "Local roots. Big world energy.",
+    "theme": "green",
+    "art": "journey",
+    "artWords": ["FROM HERE TO EVERYWHERE", "CAPE FLATS → WORLDWIDE"]
+  }
+]

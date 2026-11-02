@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en-ZA">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f5f1e8">
+    <meta name="description" content="Ask THE HUB about live streams, events, music and gaming content, volunteering, or creator and sponsor collaborations.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="THE HUB">
+    <meta property="og:title" content="Enquire About Shows, Events & Collaborations | THE HUB">
+    <meta property="og:description" content="Tell THE HUB what you have in mind. Ask about shows, events, community opportunities, or collaborations.">
+    <meta property="og:url" content="https://collectivehub-homepage.netlify.app/enquiry.html">
+    <meta property="og:image" content="https://collectivehub-homepage.netlify.app/assets/hub-session.svg">
+    <link rel="canonical" href="https://collectivehub-homepage.netlify.app/enquiry.html">
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+    <title>Shows, Events &amp; Collaboration Enquiries | THE HUB</title>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+        <a class="wordmark" href="index.html" aria-label="THE HUB home">THE<span>_</span>HUB<span class="wordmark-period">.</span></a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
+            <span></span><span></span>
+        </button>
+        <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+            <a href="index.html#shows">The shows</a>
+            <a href="index.html#events">Events</a>
+            <a href="index.html#about">Our corner</a>
+            <a class="nav-cta" href="contact.html">General contact <span aria-hidden="true">↗</span></a>
+        </nav>
+    </header>
+
+    <main id="main" class="form-page">
+        <section class="form-intro" aria-labelledby="page-title">
+            <p class="eyebrow">THE HUB / ENQUIRIES</p>
+            <h1 id="page-title">Bring us an idea.<br><em>Let's make a moment.</em></h1>
+            <p>Ask about shows, live streams, pop-up events, community opportunities, or a collaboration with a creator or brand.</p>
+        </section>
+
+        <section class="form-panel" aria-labelledby="enquiry-form-title">
+            <div class="form-panel-heading">
+                <p class="eyebrow">Tell us what you're thinking</p>
+                <h2 id="enquiry-form-title">What can we help with?</h2>
+                <p>Share enough detail for the team to understand your request. We'll follow up to discuss availability, costs (if any), and next steps; submitting an enquiry does not confirm a booking or event place.</p>
+            </div>
+            <form name="hub-enquiry" method="POST" action="/" data-netlify="true" netlify-honeypot="bot-field" data-ajax-form data-form-kind="enquiry">
+                <input type="hidden" name="form-name" value="hub-enquiry">
+                <div hidden><label>Leave this field empty <input name="bot-field"></label></div>
+                <div class="form-grid">
+                    <div class="form-field">
+                        <label for="enquiry-name">Your name <span aria-hidden="true">*</span></label>
+                        <input id="enquiry-name" name="name" type="text" autocomplete="name" minlength="2" maxlength="80" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="enquiry-email">Email address <span aria-hidden="true">*</span></label>
+                        <input id="enquiry-email" name="email" type="email" autocomplete="email" maxlength="254" required>
+                    </div>
+                    <div class="form-field">
+                        <label for="enquiry-phone">Phone number <span class="optional">(optional)</span></label>
+                        <input id="enquiry-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" pattern="\+?[0-9][0-9\s.\x28\x29\x2d]{5,18}[0-9]" title="Enter a phone number with 7 to 20 characters using numbers, spaces, +, brackets, dots, or hyphens.">
+                    </div>
+                    <div class="form-field">
+                        <label for="enquiry-interest">What is your enquiry about? <span aria-hidden="true">*</span></label>
+                        <select id="enquiry-interest" name="interest" required>
+                            <option value="">Choose an area</option>
+                            <option value="show">A show or live stream</option>
+                            <option value="event">An event or pop-up session</option>
+                            <option value="music-gaming">Music or gaming content</option>
+                            <option value="collaboration">Creator or brand collaboration</option>
+                            <option value="community">Volunteering or community participation</option>
+                            <option value="other">Something else</option>
+                        </select>
+                    </div>
+                    <div class="form-field">
+                        <label for="enquiry-date">Preferred date <span class="optional">(optional)</span></label>
+                        <input id="enquiry-date" name="preferred-date" type="date">
+                        <span class="field-hint">A requested date is not a confirmed booking.</span>
+                    </div>
+                    <div class="form-field">
+                        <label for="enquiry-name-project">Creator, group, or project <span class="optional">(optional)</span></label>
+                        <input id="enquiry-name-project" name="project" type="text" maxlength="120">
+                    </div>
+                    <div class="form-field form-field--full">
+                        <label for="enquiry-message">Tell us more <span aria-hidden="true">*</span></label>
+                        <textarea id="enquiry-message" name="message" rows="7" minlength="20" maxlength="4000" required placeholder="What are you proposing, and what would you like to happen next?"></textarea>
+                    </div>
+                </div>
+                <label class="consent-field">
+                    <input type="checkbox" name="privacy-consent" value="confirmed" required>
+                    <span>I have read the <a href="privacy.html">privacy notice</a> and agree to THE HUB using these details to respond. <span aria-hidden="true">*</span></span>
+                </label>
+                <button class="button button-dark submit-button" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+                <p class="form-status" role="status" aria-live="polite" tabindex="-1"></p>
+                <p class="form-delivery-note">Online delivery is handled by Netlify Forms when this site is deployed there. If delivery is unavailable, you'll be given an email draft to review and send to <a href="mailto:katakanna18@gmail.com">katakanna18@gmail.com</a>.</p>
+            </form>
+        </section>
+        <p class="form-backlink"><a class="text-link" href="index.html">← Back to THE HUB</a></p>
+    </main>
+
+    <footer class="site-footer">
+        <div class="section-wrap footer-main">
+            <a class="wordmark" href="index.html" aria-label="THE HUB home">THE<span>_</span>HUB<span class="wordmark-period">.</span></a>
+            <p>Music, gaming and real conversation.<br>Western Cape roots. Open to the world.</p>
+            <a class="footer-email" href="mailto:katakanna18@gmail.com">katakanna18@gmail.com <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="section-wrap footer-meta">
+            <span>© <span data-current-year>2026</span> THE HUB</span>
+            <nav aria-label="Footer navigation"><a href="contact.html">Contact</a><a href="privacy.html">Privacy</a></nav>
+            <a href="#main">Back to top ↑</a>
+        </div>
+    </footer>
+</body>
+</html>

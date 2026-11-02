@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" role="img" aria-labelledby="title description">
+  <title id="title">THE HUB gaming illustration</title>
+  <desc id="description">A bold game controller with pixel shapes and a bright green background.</desc>
+  <rect width="640" height="640" fill="#b7c8a4"/>
+  <path d="M94 118h76v76H94zM470 84h54v54h-54zM486 466h78v78h-78zM94 474h48v48H94z" fill="#f2c65d"/>
+  <path d="m240 244 21-78c5-18 25-27 42-19l48 23 47-23c17-8 37 1 42 19l21 78 46 171c10 38-32 67-64 44l-74-53h-75l-74 53c-32 23-74-6-64-44Z" fill="#171714"/>
+  <path d="M218 310h92m-46-46v92" stroke="#f5f1e8" stroke-linecap="round" stroke-width="18"/>
+  <circle cx="423" cy="290" r="13" fill="#c83d42"/>
+  <circle cx="466" cy="330" r="13" fill="#e7a9b5"/>
+  <circle cx="382" cy="330" r="13" fill="#f2c65d"/>
+  <circle cx="423" cy="370" r="13" fill="#b7c8a4"/>
+  <path d="M148 208v-44m-22 22h44m314 63v-42m-21 21h42" stroke="#c83d42" stroke-linecap="round" stroke-width="10"/>
+  <text x="52" y="586" fill="#171714" font-family="Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="3">PRESS PLAY / FIND YOUR PEOPLE</text>
+</svg>
